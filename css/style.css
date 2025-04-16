@@ -94,51 +94,51 @@ nav a:hover {
 }
 
 @media (min-width: 320px) {
-  .resume-page {
+  .index-page {
     font-size: 0.9rem;
     padding: 1rem;
   }
 
-  .resume-page nav {
+  .index-page nav {
     flex-direction: column;
     align-items: center;
   }
 
-  .resume-page nav ul {
+  .index-page nav ul {
     flex-direction: column;
     align-items: center;
   }
 
-  .resume-page nav li {
+  .index-page nav li {
     margin: 0.5rem 0;
   }
 
-  .resume-page .nav-logo {
+  .index-page .nav-logo {
     height: 15px;
   }
 }
 
 @media (min-width: 768px) {
-  .resume-page {
+  .index-page {
     font-size: 1rem;
     padding: 2rem;
   }
 
-  .resume-page nav {
+  .index-page nav {
     flex-direction: row;
     justify-content: space-between;
     padding: 1rem 2rem;
   }
 
-  .resume-page nav ul {
+  .index-page nav ul {
     flex-direction: row;
   }
 
-  .resume-page nav li {
+  .index-page nav li {
     margin: 0 1rem;
   }
 
-  .resume-page .nav-logo {
+  .index-page .nav-logo {
     height: 25px;
   }
 }
