@@ -1,0 +1,14 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Open aboutme.html",
+            "file": "/Users/joanneporter/Documents/GitHub/webdev_lab1/lab2/Lab4/Lab 5/Project3/aboutme.html"
+        }
+    ]
+}
