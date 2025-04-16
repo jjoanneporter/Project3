@@ -7,7 +7,7 @@ body {
   background-repeat: repeat;
   background-attachment: fixed;
   background-position: center;
-  color: #fff; /* White text */
+  color: #fff; 
   text-align: center;
   padding: 1rem;
   font-size: 1rem;
@@ -80,6 +80,17 @@ nav a:hover {
   33%  { transform: translateX(-100%); }
   66%  { transform: translateX(-200%); }
   100% { transform: translateX(0%); }
+}
+
+/* Image styling for About Me page */
+.about-img, section img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  display: block;
+  margin: 1rem auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
 @media (min-width: 320px) {
