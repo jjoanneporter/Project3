@@ -3,11 +3,32 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Map of Chicago</title>
+  <title>Joanne Porter - Map</title>
   <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      background-color: #CE1141;
+      color: #fff;
+      text-align: center;
+    }
 
+    #map {
+      height: 500px;
+      width: 90%;
+      max-width: 900px;
+      margin: 2rem auto;
+      border: 3px solid black;
+      border-radius: 8px;
+    }
+
+    h1 {
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body class="map-page">
   <nav>
     <ul>
       <li><a href="resume.html">Resume</a></li>
@@ -16,3 +37,16 @@
       <li><a href="map.html">Map</a></li>
     </ul>
   </nav>
+
+  <h1>Colleges That Shaped Me</h1>
+  <div id="map"></div>
+
+  <!-- Your custom JS -->
+  <script src="js/script.js"></script>
+
+  <!-- Google Maps API with your actual API key -->
+  <script async
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBjZE2pUoTTE1el-3ujVxlUrMzjHeb3MyE&callback=initMap">
+  </script>
+</body>
+</html>
