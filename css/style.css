@@ -142,3 +142,21 @@ nav a:hover {
     height: 25px;
   }
 }
+.index-page .nav-logo {
+  height: 25px;
+}
+
+.about-img-row {
+display: flex;
+justify-content: center;
+gap: 1rem;
+flex-wrap: wrap;
+}
+
+.about-img-row img {
+max-width: 300px;
+width: 100%;
+height: auto;
+border-radius: 10px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
